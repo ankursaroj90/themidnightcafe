@@ -75,6 +75,10 @@ height: 100%;
 
 }
 
+.ProfileText .imgBx:hover img{
+    transform: scale(1.2);
+}
+
 .ProfileText h2
 {
 
