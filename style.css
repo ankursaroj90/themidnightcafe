@@ -589,7 +589,7 @@ section{
 }
 
 .footer .credit a:hover{
-    background-color: var(--main-color);
+    background-color: #fff;
     transform: 0.5;
 }
 
