@@ -584,12 +584,12 @@ section{
 
 .footer .credit a{
     color: var(--main-color);
-    border: var(--border);
     font-weight: bold;
 }
 
 .footer .credit a:hover{
     transform: scale(0.5);
+    color: #fff;
 }
 
 
