@@ -209,13 +209,13 @@ line-height: 1.4em;
 
 .left_side .text1 a{
     color: red;
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
 .left_side .text1 a:hover{
     color: #fff;
-    transform: scale(1.2);
+    font-size: 150%;
 }
 
 
