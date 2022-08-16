@@ -207,6 +207,16 @@ line-height: 1.4em;
 
 }
 
+.left_side .text1 a{
+    color: light-blue;
+    font-size: 2rem;
+}
+
+.left_side .text1 a:hover{
+    color: #fff;
+    
+}
+
 
 .container .right_side
 {
