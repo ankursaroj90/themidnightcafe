@@ -582,6 +582,16 @@ section{
     font-weight: bold;
 }
 
+.footer .credit span a{
+    color: var(--main-color);
+    border: var(--border);
+    font-weight: bold;
+}
+
+.footer .credit span a:hover{
+    background-color: var(--main-color);
+}
+
 
 
 
