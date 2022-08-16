@@ -208,13 +208,13 @@ line-height: 1.4em;
 }
 
 .left_side .text1 a{
-    color: light-blue;
-    font-size: 2rem;
+    color: red;
+    font-size: .75rem;
 }
 
 .left_side .text1 a:hover{
     color: #fff;
-    
+    transform: scale(1.2);
 }
 
 
