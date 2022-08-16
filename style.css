@@ -589,8 +589,7 @@ section{
 }
 
 .footer .credit a:hover{
-    background-color: #fff;
-    transform: 0.5;
+    transform: scale(0.5);
 }
 
 
