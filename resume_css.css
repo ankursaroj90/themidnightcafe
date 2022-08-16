@@ -210,6 +210,7 @@ line-height: 1.4em;
 .left_side .text1 a{
     color: red;
     font-size: .75rem;
+    decoration: none;
 }
 
 .left_side .text1 a:hover{
