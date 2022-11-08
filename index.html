@@ -369,27 +369,27 @@
 
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14023.590497338982!2d80.14860214999999!3d28.5127277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1cd9b5a2390fb%3A0x573644ea867a0b13!2sPuranpur%2C%20Uttar%20Pradesh%20262122!5e0!3m2!1sen!2sin!4v1660414949951!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        <form action="">
+        <form action="" onsubmit="sendEmail(); reset(); return false;">
             <h3>get in touch</h3>
 
             <div class="inputBox">
 
                 <span class="fas fa-user"></span>
-                <input type="text" placeholder="name">
+                <input type="text" id="name" placeholder="name">
 
             </div>
 
             <div class="inputBox">
 
                 <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="email">
+                <input type="email" id="email" placeholder="email">
 
             </div>
 
             <div class="inputBox">
 
                 <span class="fas fa-phone"></span>
-                <input type="number" placeholder="number">
+                <input type="number" id="phone" placeholder="number">
 
             </div>
 
@@ -398,6 +398,31 @@
         </form>
 
     </div>
+    
+    <script src="http://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+
+        function sendEmail(){
+        
+            Email.send({
+        
+                Host : "smtp.elasticemail.com",
+                Username : "kumar78178ankur@gmail.com",
+                Password : "8CB21A1F99C3FE90EBB08682AE29ED389541",
+                To : "ankursaroj6396@gmail.com",
+                From : document.getElementById("email").value,
+                Subject : "New Contact From Enquiry",
+                Body : "Name: " + document.getElementById("name").value
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> Phone no: " + document.getElementById("phone").value
+                
+        
+            }).then(
+                message => alert("Thanks for contacting us...")
+            );
+        }
+    </script>
 
 </section>
 
