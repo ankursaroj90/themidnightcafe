@@ -240,8 +240,8 @@ section{
     font-weight: bold;
     line-height: 1.8;
     padding: 1rem 0;
-    color: black;
-    text-shadow: 0.25rem 0.25rem gray;
+    color: grey;
+    text-shadow: 0.25rem 0.25rem white;
     letter-spacing: 2px;
     word-spacing: 5px;
     width: 60px;
