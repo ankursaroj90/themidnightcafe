@@ -718,7 +718,7 @@ section{
         line-height: 1.8;
         padding: 1rem 0;
         color: black;
-        text-shadow: 0.25rem 0.25rem gray;
+        text-shadow: 0.15rem 0.15rem gray;
         letter-spacing: 2px;
         word-spacing: 5px;
         width: 60px;
@@ -753,7 +753,7 @@ section{
         line-height: 1.8;
         padding: 1rem 0;
         color: black;
-        text-shadow: 0.25rem 0.25rem gray;
+        text-shadow: 0.15rem 0.15rem gray;
         letter-spacing: 2.5px;
         word-spacing: 5px;
         width: 60px;
