@@ -356,7 +356,8 @@
         letter-spacing: 0.25rem;
         font-style: italic;
         font-family: cursive;
-        text-shadow: 0.25rem 0.25rem grey;
+        text-shadow: 0.5rem 0.5rem grey;
+        font-weight: 400;
         color: tomato;
         text-overflow: auto;
     }
