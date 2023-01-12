@@ -219,21 +219,32 @@ section{
 }
 
 .home .content{
-    max-width: 35rem;
+    max-width: 100%;
 }
 
 .home .content h3{
+    padding-left: 30rem;
+    padding-bottom: 5rem;
     font-size: 6.75rem;
     text-transform: uppercase;
     color: #eee;
+    text-shadow: 0.5rem 0.5rem var(--black);
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 .home .content p{
-    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 3.5rem;
     font-weight: bold;
     line-height: 1.8;
     padding: 1rem 0;
     color: black;
+    text-shadow: 0.25rem 0.25rem gray;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    width: 60px;
 }
 
 .about .row{
@@ -609,6 +620,32 @@ section{
     section{
         padding: 2rem;
     }
+    
+    .home .content h3{
+        padding-left: 30rem;
+        padding-bottom: 5rem;
+        font-size: 6.75rem;
+        text-transform: uppercase;
+        color: #eee;
+        text-shadow: 0.5rem 0.5rem var(--black);
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+    
+    .home .content p{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 3.5rem;
+        font-weight: bold;
+        font-style: italic;
+        line-height: 1.8;
+        padding: 1rem 0;
+        color: black;
+        text-shadow: 0.25rem 0.25rem gray;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        width: 60px;
+    }
 
 }
 
@@ -657,6 +694,35 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
+    
+    .home .content h3{
+        padding-left: 2rem;
+        padding-bottom: 5rem;
+        font-size: 7.75rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        color: #eee;
+        text-shadow: 0.75rem 0.75rem var(--black);
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+    
+    .home .content p{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 3.5rem;
+        font-weight: bold;
+        font-style: italic;
+        line-height: 1.8;
+        padding: 1rem 0;
+        color: black;
+        text-shadow: 0.25rem 0.25rem gray;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        width: 60px;
+    }
 
 }
 
@@ -664,6 +730,32 @@ section{
 
     html{
         font-size: 50%;
+    }
+    
+    .home .content h3{
+        padding-left: 0.5rem;
+        padding-bottom: 5rem;
+        font-size: 4.5rem;
+        text-transform: uppercase;
+        color: #eee;
+        text-shadow: 0.5rem 0.5rem var(--black);
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
+
+    .home .content p{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 2rem;
+        font-weight: bold;
+        font-style: italic;
+        line-height: 1.8;
+        padding: 1rem 0;
+        color: black;
+        text-shadow: 0.25rem 0.25rem gray;
+        letter-spacing: 2.5px;
+        word-spacing: 5px;
+        width: 60px;
     }
 
 }
