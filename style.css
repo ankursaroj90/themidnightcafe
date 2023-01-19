@@ -223,8 +223,8 @@ section{
 }
 
 .home .content h3{
-    padding-left: 30rem;
-    padding-bottom: 5rem;
+    padding-left: 20rem;
+    padding-top: 11rem;
     font-size: 6.75rem;
     text-transform: uppercase;
     color: #eee;
@@ -616,12 +616,6 @@ section{
 
 
 /* media queries*/
-@media (max-width:1115px){
-    .home .content h3{
-        padding-left: 7rem;
-        padding-top: 35rem;
-    }
-}
 
 @media (max-width:991px){
 
