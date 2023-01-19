@@ -695,19 +695,11 @@ section{
         justify-content: center;
         text-align: center;
     }
-
-    .home .content h3{
-        font-size: 4.5rem;
-    }
-
-    .home .content p{
-        font-size: 1.5rem;
-    }
     
     .home .content h3{
         padding-left: 2rem;
         padding-bottom: -3rem;
-        font-size: 7.75rem;
+        font-size: 4.5rem;
         font-family: 'Times New Roman', Times, serif;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -715,7 +707,7 @@ section{
         color: #eee;
         text-shadow: 0.75rem 0.75rem var(--black);
         margin-top: auto;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     
     .home .content p{
